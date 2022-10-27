@@ -1,0 +1,228 @@
+DEBUG 2020-11-09 16:26:09.891 UTC: 	 CRAB Client version: v3.200812
+DEBUG 2020-11-09 16:26:09.891 UTC: 	 Running on: Linux lxplus750.cern.ch 3.10.0-1127.19.1.el7.x86_64 #1 SMP Tue Aug 25 17:23:54 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-11-09 16:26:09.891 UTC: 	 Executing command: 'status'
+DEBUG 2020-11-09 16:26:09.893 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+ERROR 2020-11-09 16:26:09.918 UTC: 	 Error: crab_GS_JpsiToMuMuwithDPlus_08-11-2020 is not a valid CRAB project directory.
+ERROR 2020-11-09 16:26:09.918 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.200812.00/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.200812.00/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.200812.00/lib/CRABClient/Commands/status.py", line 41, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.200812.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.200812.00/lib/CRABClient/Commands/SubCommand.py", line 623, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_GS_JpsiToMuMuwithDPlus_08-11-2020 is not a valid CRAB project directory.
+INFO 2020-11-09 16:26:09.960 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_12/src/GS/crab.log
+DEBUG 2020-11-28 17:50:51.215 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2020-11-28 17:50:51.215 UTC: 	 Running on: Linux lxplus721.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2020-11-28 17:50:51.215 UTC: 	 Executing command: 'status'
+DEBUG 2020-11-28 17:50:51.215 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+ERROR 2020-11-28 17:50:51.216 UTC: 	 Error: crab_projects/crab_GS_JpsiToMuMuwithDp is not a valid CRAB project directory.
+ERROR 2020-11-28 17:50:51.216 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.00/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.00/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.00/lib/CRABClient/Commands/status.py", line 41, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.00/lib/CRABClient/Commands/SubCommand.py", line 271, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.00/lib/CRABClient/Commands/SubCommand.py", line 628, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_projects/crab_GS_JpsiToMuMuwithDp is not a valid CRAB project directory.
+INFO 2020-11-28 17:50:51.301 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_12/src/GS/crab.log
+DEBUG 2021-01-30 23:06:29.537 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2021-01-30 23:06:29.538 UTC: 	 Running on: Linux lxplus715.cern.ch 3.10.0-1160.11.1.el7.x86_64 #1 SMP Fri Dec 18 16:34:56 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-01-30 23:06:29.538 UTC: 	 Executing command: 'submit'
+DEBUG 2021-01-30 23:06:29.538 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+INFO 2021-01-30 23:06:29.539 UTC: 	 Will use CRAB configuration file crab_config_GS_JpsiToMuMuwithDstar.py
+DEBUG 2021-01-30 23:06:29.539 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-01-30 23:06:30.171 UTC: 	 Will use CRAB PrivateMC plugin (i.e. will run a MC generation job type).
+ERROR 2021-01-30 23:06:30.172 UTC: 	 Working area '/afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_12/src/GS/crab_projects/crab_GS_JpsiToMuMuwithDstar_31-01-2021' already exists 
+Please change the requestName in the config file
+ERROR 2021-01-30 23:06:30.172 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/submit.py", line 35, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 316, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/ClientUtilities.py", line 397, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_12/src/GS/crab_projects/crab_GS_JpsiToMuMuwithDstar_31-01-2021' already exists 
+Please change the requestName in the config file
+INFO 2021-01-30 23:06:30.186 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_12/src/GS/crab.log
+DEBUG 2021-01-31 21:10:08.695 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2021-01-31 21:10:08.696 UTC: 	 Running on: Linux lxplus719.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-01-31 21:10:08.696 UTC: 	 Executing command: 'status'
+DEBUG 2021-01-31 21:10:08.697 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+ERROR 2021-01-31 21:10:08.698 UTC: 	 Error: crab_GS_JpsiToMuMuwithDstar_31-01-2021 is not a valid CRAB project directory.
+ERROR 2021-01-31 21:10:08.698 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/status.py", line 41, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 271, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 628, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_GS_JpsiToMuMuwithDstar_31-01-2021 is not a valid CRAB project directory.
+INFO 2021-01-31 21:10:08.760 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_12/src/GS/crab.log
+DEBUG 2021-01-31 21:11:11.026 UTC: 	 CRAB Client version: v3.201110
+DEBUG 2021-01-31 21:11:11.027 UTC: 	 Running on: Linux lxplus719.cern.ch 3.10.0-1160.2.2.el7.x86_64 #1 SMP Tue Oct 20 16:53:08 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-01-31 21:11:11.027 UTC: 	 Executing command: 'resubmit'
+DEBUG 2021-01-31 21:11:11.027 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+ERROR 2021-01-31 21:11:11.029 UTC: 	 Error: crab_GS_JpsiToMuMuwithDstar_31-01-2021 is not a valid CRAB project directory.
+ERROR 2021-01-31 21:11:11.029 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/resubmit.py", line 28, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 271, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.201110.01/lib/CRABClient/Commands/SubCommand.py", line 628, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_GS_JpsiToMuMuwithDstar_31-01-2021 is not a valid CRAB project directory.
+INFO 2021-01-31 21:11:11.031 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_12/src/GS/crab.log
+ERROR 2021-04-13 09:49:18.446 UTC: 	 Keyboard Interrupted
+INFO 2021-04-13 09:49:19.338 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_12/src/GS/crab.log
+DEBUG 2021-04-13 23:53:06.357 UTC: 	 CRAB Client version: v3.210127
+DEBUG 2021-04-13 23:53:06.357 UTC: 	 Running on: Linux lxplus711.cern.ch 3.10.0-1160.21.1.el7.x86_64 #1 SMP Tue Mar 16 18:28:22 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-04-13 23:53:06.357 UTC: 	 Executing command: 'status'
+DEBUG 2021-04-13 23:53:06.358 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+ERROR 2021-04-13 23:53:06.358 UTC: 	 Error: crab_GS_JpsiToMuMuwithDstar_13-04-2021 is not a valid CRAB project directory.
+ERROR 2021-04-13 23:53:06.359 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210127.00/bin/crab", line 165, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210127.00/bin/crab", line 150, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210127.00/lib/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210127.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210127.00/lib/CRABClient/Commands/SubCommand.py", line 639, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_GS_JpsiToMuMuwithDstar_13-04-2021 is not a valid CRAB project directory.
+INFO 2021-04-13 23:53:06.399 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_12/src/GS/crab.log
+DEBUG 2021-06-04 14:38:39.915 UTC: 	 CRAB Client version: v3.210601
+DEBUG 2021-06-04 14:38:39.915 UTC: 	 Running on: Linux lxplus734.cern.ch 3.10.0-1160.25.1.el7.x86_64 #1 SMP Wed Apr 28 21:49:45 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-06-04 14:38:39.915 UTC: 	 Executing command: 'submit'
+DEBUG 2021-06-04 14:38:39.915 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+INFO 2021-06-04 14:38:39.916 UTC: 	 Will use CRAB configuration file crab_config_GS_JpsiToMuMuwithDstar.py
+DEBUG 2021-06-04 14:38:39.916 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-06-04 14:38:39.926 UTC: 	 Will use CRAB PrivateMC plugin (i.e. will run a MC generation job type).
+ERROR 2021-06-04 14:38:39.926 UTC: 	 Working area '/afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab_projects/crab_GS_JpsiToMuMuwithDstar_04-06-2021' already exists 
+Please change the requestName in the config file
+ERROR 2021-06-04 14:38:39.927 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210601.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210601.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210601.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210601.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210601.00/lib/CRABClient/ClientUtilities.py", line 399, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab_projects/crab_GS_JpsiToMuMuwithDstar_04-06-2021' already exists 
+Please change the requestName in the config file
+INFO 2021-06-04 14:38:39.931 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab.log
+DEBUG 2021-06-30 17:58:01.362 UTC: 	 CRAB Client version: v3.210610
+DEBUG 2021-06-30 17:58:01.363 UTC: 	 Running on: Linux lxplus717.cern.ch 3.10.0-1160.31.1.el7.x86_64 #1 SMP Thu Jun 10 13:32:12 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-06-30 17:58:01.363 UTC: 	 Executing command: 'status'
+DEBUG 2021-06-30 17:58:01.379 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+ERROR 2021-06-30 17:58:01.382 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab_projects/crab_GS_JpsiToMuMuwithDstar_30-06-2021
+ERROR 2021-06-30 17:58:01.382 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab_projects/crab_GS_JpsiToMuMuwithDstar_30-06-2021
+INFO 2021-06-30 17:58:01.629 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab.log
+DEBUG 2021-06-30 18:00:08.492 UTC: 	 CRAB Client version: v3.210610
+DEBUG 2021-06-30 18:00:08.493 UTC: 	 Running on: Linux lxplus717.cern.ch 3.10.0-1160.31.1.el7.x86_64 #1 SMP Thu Jun 10 13:32:12 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-06-30 18:00:08.493 UTC: 	 Executing command: 'submit'
+DEBUG 2021-06-30 18:00:08.501 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+INFO 2021-06-30 18:00:08.502 UTC: 	 Will use CRAB configuration file crab_config_GS_JpsiToMuMuwithDstar.py
+DEBUG 2021-06-30 18:00:08.503 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-06-30 18:00:08.514 UTC: 	 Will use CRAB PrivateMC plugin (i.e. will run a MC generation job type).
+ERROR 2021-06-30 18:00:08.514 UTC: 	 Working area '/afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab_projects/crab_GS_JpsiToMuMuwithDstar_30-06-2021' already exists 
+Please change the requestName in the config file
+ERROR 2021-06-30 18:00:08.514 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab_projects/crab_GS_JpsiToMuMuwithDstar_30-06-2021' already exists 
+Please change the requestName in the config file
+INFO 2021-06-30 18:00:08.519 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab.log
+DEBUG 2021-06-30 18:46:47.390 UTC: 	 CRAB Client version: v3.210610
+DEBUG 2021-06-30 18:46:47.390 UTC: 	 Running on: Linux lxplus717.cern.ch 3.10.0-1160.31.1.el7.x86_64 #1 SMP Thu Jun 10 13:32:12 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-06-30 18:46:47.390 UTC: 	 Executing command: 'kill'
+DEBUG 2021-06-30 18:46:47.391 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+ERROR 2021-06-30 18:46:47.392 UTC: 	 Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab_projects/crab_GS_JpsiToMuMuwithDstar_30-06-2021
+ERROR 2021-06-30 18:46:47.392 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210610.01/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab_projects/crab_GS_JpsiToMuMuwithDstar_30-06-2021
+INFO 2021-06-30 18:46:47.456 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab.log
+DEBUG 2021-12-07 14:00:39.831 UTC: 	 CRAB Client version: v3.211130
+DEBUG 2021-12-07 14:00:39.831 UTC: 	 Running on: Linux lxplus782.cern.ch 3.10.0-1160.45.1.el7.x86_64 #1 SMP Wed Oct 13 17:20:51 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux - CentOS Linux 7 (Core)
+DEBUG 2021-12-07 14:00:39.831 UTC: 	 Executing command: 'status'
+DEBUG 2021-12-07 14:00:39.836 UTC: 	 Found CRAB cache file /afs/cern.ch/user/m/mabarros/.crab3
+ERROR 2021-12-07 14:00:39.852 UTC: 	 Error: crab_projects/crab_GS_JpsiToMuMuwithDstar2018_07-12-2021_ is not a valid CRAB project directory.
+ERROR 2021-12-07 14:00:39.852 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.211130.00/bin/crab.py", line 149, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.211130.00/bin/crab.py", line 134, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.211130.00/lib/CRABClient/Commands/status.py", line 47, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.211130.00/lib/CRABClient/Commands/SubCommand.py", line 269, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.211130.00/lib/CRABClient/Commands/SubCommand.py", line 636, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_projects/crab_GS_JpsiToMuMuwithDstar2018_07-12-2021_ is not a valid CRAB project directory.
+INFO 2021-12-07 14:00:39.967 UTC: 	 Log file is /afs/cern.ch/work/m/mabarros/public/MonteCarlo/CMSSW_10_6_20/src/GS/crab.log
